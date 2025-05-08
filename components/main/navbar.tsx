@@ -55,7 +55,7 @@ export const Navbar = () => {
 
         {/* Social Icons (Web) */}
         <div className="hidden md:flex flex-row gap-5">
-          {SOCIALS.map(({ link, name, icon: Icon }) => (
+          {/* {SOCIALS.map(({ link, name, icon: Icon }) => (
             <Link
               href={link}
               target="_blank"
@@ -64,7 +64,7 @@ export const Navbar = () => {
             >
               <Icon className="h-6 w-6 text-white" />
             </Link>
-          ))}
+          ))} */}
         </div>
 
         {/* Hamburger Menu */}
@@ -104,7 +104,7 @@ export const Navbar = () => {
 
           {/* Social Icons */}
           <div className="flex justify-center gap-6 mt-6">
-            {SOCIALS.map(({ link, name, icon: Icon }) => (
+            {/* {SOCIALS.map(({ link, name, icon: Icon }) => (
               <Link
                 href={link}
                 target="_blank"
@@ -113,7 +113,7 @@ export const Navbar = () => {
               >
                 <Icon className="h-8 w-8 text-white" />
               </Link>
-            ))}
+            ))} */}
           </div>
         </div>
       )}
